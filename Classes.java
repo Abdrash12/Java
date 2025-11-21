@@ -8,6 +8,7 @@ public class Classes {
         Car car1 = new Car(1981,"pink");
         Math math1 = new Math(8,9);
         math1.multiply();
+        math1.add();
         car1.start();
         car1.model();        
     }
@@ -41,7 +42,12 @@ public class Classes {
         {
             System.out.println("The answer for "+a+"X"+b+"="+(a*b));
         }
+         void add()
+        {
+            System.out.println("The answer for "+a+"+"+b+"="+(a+b));
+        }
     
         
     }
+
     
